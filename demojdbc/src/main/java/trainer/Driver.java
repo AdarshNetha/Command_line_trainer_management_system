@@ -11,7 +11,7 @@ public class Driver {
 		while(flag)
 		{
 			System.out.println("enter your choise");
-			System.out.println("1.insert \n 2.update \n 3.delete \n 4.find \n 5.All data \n 6.exit");
+			System.out.println("1.insert \n 2.update \n 3.delete \n 4.find \n 5.find All data \n 6.exit");
 			int key=sc.nextInt();
 			switch (key) {
 			case 1:{

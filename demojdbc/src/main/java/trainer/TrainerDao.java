@@ -74,6 +74,7 @@ public class TrainerDao {
 			preparedStatement.setInt(2, id);
 			preparedStatement.setString(1, name);
 			rowsmodified=preparedStatement.executeUpdate();
+			System.out.println("updated succesfully");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
