@@ -14,7 +14,7 @@ public class TrainerDao {
 		try {
 			Class.forName("org.postgresql.Driver");
 			System.out.println("driver register");
-			con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/school","postgres", "123456");
+			con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/DATABASENAME","USERNAME", "PASSWORD");
 			System.out.println("connected succesfully");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
