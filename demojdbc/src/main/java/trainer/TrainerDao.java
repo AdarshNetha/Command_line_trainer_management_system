@@ -108,6 +108,7 @@ public class TrainerDao {
 			PreparedStatement preparedStatement=con.prepareStatement(query);
 			preparedStatement.setInt(1, id);
 			preparedStatement.execute();
+			System.out.println("deleted succesfully");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
